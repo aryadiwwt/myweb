@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myweb/constants/app_colors.dart';
 
 class CallToActionTablet extends StatelessWidget {
   final String title;
@@ -12,8 +13,7 @@ class CallToActionTablet extends StatelessWidget {
           style: TextStyle(
               fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white)),
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 31, 229, 146),
-          borderRadius: BorderRadius.circular(23)),
+          color: primaryColor, borderRadius: BorderRadius.circular(23)),
     );
   }
 }

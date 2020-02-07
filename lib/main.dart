@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       textTheme: Theme.of(context).textTheme.apply(fontFamily: 'gisha'),
     );
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'PRINTZ',
       theme: themeData,
       home: HomeView(),
     );
