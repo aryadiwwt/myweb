@@ -1,10 +1,10 @@
 # myweb
 
-A new Flutter project.
+A new Flutter Web project.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
+Please help for making the website better.
+This project is a starting point for a Flutter Web application.
 
 A few resources to get you started if this is your first Flutter project:
 
