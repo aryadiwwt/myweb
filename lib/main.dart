@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:myweb/views/home/home_view.dart';
+import 'package:myweb/locator.dart';
+import 'package:myweb/views/layout_template/layout_template.dart';
 
-void main() => runApp(MyApp());
+import 'locator.dart';
+
+void main() {
+  setupLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -14,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'PRINTZ',
       theme: themeData,
-      home: HomeView(),
+      home: LayoutTempalte(),
     );
   }
 }
