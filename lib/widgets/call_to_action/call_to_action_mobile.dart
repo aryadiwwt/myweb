@@ -19,7 +19,7 @@ class CallToActionMobile extends StatelessWidget {
         ),
       ),
       decoration: BoxDecoration(
-          color: primaryColor, borderRadius: BorderRadius.circular(5)),
+          color: primaryColor, borderRadius: BorderRadius.circular(23)),
     );
   }
 }

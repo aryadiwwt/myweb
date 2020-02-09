@@ -41,7 +41,7 @@ class CourseDetails extends StatelessWidget {
                 'Kami adalah perusahaan rintisan berbasis teknologi digital yang fokus untuk industri Digital Printing, kami membantu pelaku usaha Digital Printing dalam mengembangkan bisnisnya, disisi yang lain kami membantu konsumen untuk mendapatkan pelayanan yang efektif dan efisien, bahkan tanpa harus keluar dari rumah',
                 style: TextStyle(
                   fontSize: descriptionSize,
-                  height: 1.5,
+                  height: 1.0,
                 ),
                 textAlign: textAlignment,
               )
