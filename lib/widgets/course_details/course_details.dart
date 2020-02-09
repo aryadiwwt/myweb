@@ -30,9 +30,9 @@ class CourseDetails extends StatelessWidget {
               Text(
                 'PRINTZ ANYWHERE.',
                 style: TextStyle(
-                    fontWeight: FontWeight.w800,
-                    height: 0.9,
-                    fontSize: titleSize),
+                  height: 0.9,
+                  fontSize: titleSize,
+                ),
               ),
               SizedBox(
                 height: 30,

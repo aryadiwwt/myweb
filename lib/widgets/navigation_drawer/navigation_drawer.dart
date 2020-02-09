@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myweb/routing/route_names.dart';
 import 'package:myweb/widgets/navigation_drawer/drawer_item.dart';
 import 'package:myweb/widgets/navigation_drawer/navigation_drawer_header.dart';
+import 'package:myweb/extensions/hover_extensions.dart';
 
 class NavigationDrawer extends StatelessWidget {
   const NavigationDrawer({Key key}) : super(key: key);
@@ -25,6 +26,6 @@ class NavigationDrawer extends StatelessWidget {
           DrawerItem('About', Icons.help, AboutRoute),
         ],
       ),
-    );
+    ).showCursorOnHover;
   }
 }

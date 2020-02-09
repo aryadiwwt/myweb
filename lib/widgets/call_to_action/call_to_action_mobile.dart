@@ -14,7 +14,6 @@ class CallToActionMobile extends StatelessWidget {
         title,
         style: TextStyle(
           fontSize: 18,
-          fontWeight: FontWeight.w800,
           color: Colors.white,
         ),
       ),

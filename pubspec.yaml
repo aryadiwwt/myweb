@@ -60,7 +60,7 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: gisha
+    - family: Gisha
       fonts:
         - asset: assets/fonts/gisha.ttf
           weight: 800
